@@ -53,7 +53,7 @@ def fib(n):
     a, b = 1, 1
     for _i in range(n - 1):
         a, b = b, a + b
-    return a
+    return a * 2
 
 
 # ---- CLI ----
